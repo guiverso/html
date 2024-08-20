@@ -5,42 +5,25 @@
 
 /*CABEÇALHO*/
 header{
-    margin-top: 4%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 4% 12% 0% 12%;
+}
+hr{
+    margin: 1% 10% 0% 10%;
 }
 
 header h1{
-    padding-left: 2%;
-    padding-right: 2%;
     font-family: open sans;
     line-height: 90%;
+    padding-bottom: 5%;
     font-size:56px;
 }
 
-.header-subtitle{
-    padding: 2%;
+header p{
     padding-right: 20%;
-    padding-top: 5%;
+    padding-bottom: 2%;
     font-family: open sans;
     font-weight: 100;
     font-size: 18px;
-}
-
-.footer-header{
-    font-family: open sans;
-    font-size: 16px;
-    padding: 2%;
-    padding-bottom: 0%;
-    font-weight: 20px;
-}
-
-.header-updated{
-    font-family: open sans;
-    font-size: 12px;
-    font-weight: 16.34px;
-    padding: 2%;
-    padding-top:1%;
 }
 
 /*CORPO*/
@@ -56,32 +39,30 @@ main article{
     padding-bottom: 0%;
 }
 
-main b{
+main b,ul{
     color: #A6130A;
+    font-size: 20px;
 }
 
 main p{
     padding-bottom: 2%;
+    padding-top: 2%;
     font-size: 18px;
 }
 
-main ul{
-    padding: 2%;
-    padding-bottom: 4%;
-    padding-left: 5%;
-    font-size: 20px;
-    color: #A6130A;
-}
-
-.island{
+main blockquote{
     border-left: 3px solid #A6130A;
-    padding-left: 1%;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    padding-left: 2%;
 }
 
 .minus{
-    font-weight: 16px;
+    font-weight: lighter;
 }
 
 h2{
-    margin: 2% 0% 2% 0%;
+    padding-top: 5%;
 }
